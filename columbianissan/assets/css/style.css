@@ -18,11 +18,14 @@ html {
 }
 body {
 	font-family: Lato, Helvetica, Arial, sans-serif;
+	background: transparent;
 }
 img {
 	height: auto;
-	width: 100%;
-	display: block;
+	width: auto;
+	max-width: 100%;
+	/*width: 100%;
+	display: block;*/
 }
 .clearfix {
 	zoom: 1;
@@ -382,9 +385,25 @@ a img:hover {
 /*
 	PAGE STYLES
 	Section incldues Header and Footer Styles
+	and container-wrapper
 */
+
+#header-primary,
+#footer-primary,
+.container-wrapper {
+	box-shadow: 0 0 10px 1px rgba(52, 73, 94, 0.4);
+}
+
+.container-wrapper {
+	max-width: 1000px;
+	margin: 1em auto;
+	background: #fff;
+}
+
 /* #HEADER-PRIMARY */
-#header-primary {}
+#header-primary {
+	background: #fff;
+}
 #header-logo {
 	height: 68px;
 	width: 100%;
@@ -565,6 +584,46 @@ a img:hover {
 	SERVICE & PARTS
 	Section includes all styling for Service & Parts department pages.
 */
+
+#content-primary-ctp .container-wrapper {
+	padding: 2em 1.5em;
+}
+.minheight-ctp {
+	overflow: hidden;
+	padding: 0 0 30px 0;
+}
+.logo-wrappers {
+	padding: 2em;
+}
+.svc-pd-logo {
+	display: inline-block;
+	padding: 0.5em;
+}
+.svc-pd-logo img {
+	height: 80px;
+}
+
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {
+		.minheight-ctp {
+			min-height: 485px;
+		}
+	} /* END 768px */
+@media screen and (min-width: 992px) {
+		.minheight-ctp {
+			min-height: 445px;
+		}
+	} /* END 992px */
+@media screen and (min-width: 1200px) {
+		.minheight-ctp {
+			min-height: 485px;
+		}
+	} /* END 1200px */
+@media screen and (min-width: 1366px) {
+		.minheight-ctp {
+			min-height: 575px;
+		}
+	} /* END 1366px */
 
 /*
 	WEBFORMS

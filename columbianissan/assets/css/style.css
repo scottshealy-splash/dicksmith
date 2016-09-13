@@ -427,6 +427,9 @@ a img:hover {
 #header-address a {
 	display: block;
 }
+#header-nav nav {
+	display: none;
+}
 @media screen and (min-width: 480px) {} /* END 480px */
 @media screen and (min-width: 768px) {} /* END 768px */
 @media screen and (min-width: 992px) {} /* END 992px */
@@ -484,6 +487,64 @@ a img:hover {
 	COLUMBIANISSAN-HOME
 	Section includes all home page styles.
 */
+
+/* #BANNER-HOME */
+#banner-home img,
+#banner-home a {
+	height: auto;
+	width: 100%;
+	display: block;
+}
+#banner-home-1,
+#banner-home-2,
+#banner-home-3,
+#banner-home-4,
+#banner-home-5,
+#banner-home-6,
+#banner-home-7 {
+	height: auto;
+	width: 100%;
+	display: none;
+}
+#banner-home-1 {
+	display: block;
+}
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {} /* END 768px */
+@media screen and (min-width: 992px) {} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */
+
+/* #HOME-SECONDARY-NAV */
+#home-secondary-nav ul {
+	margin-bottom: 0px;
+}
+#home-secondary-nav li a {
+	height: auto;
+	width: 100%;
+	display: block;
+	padding: 20px;
+	background-color: #fac40f;
+	font-size: 1.25em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #777777;
+}
+#home-secondary-nav li a:hover {
+	background-color: #f5d657;
+}
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {} /* END 768px */
+@media screen and (min-width: 992px) {} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */
+
+/* #HOME-PROMOTIONS */
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {} /* END 768px */
+@media screen and (min-width: 992px) {} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */
 
 /*
 	NEW & USED VEHICLES

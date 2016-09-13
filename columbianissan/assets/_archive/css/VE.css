@@ -1,0 +1,237 @@
+@charset "ISO-8859-1";
+#stagewrapper {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 600px;
+	width: 795px;
+}
+#LeftWrapper {
+	margin: 0px;
+	float: left;
+	height: 600px;
+	width: 470px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.LSTEPS {
+	margin: 0px;
+	float: left;
+	height: 100px;
+	width: 55px;
+	padding-left: 35px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 10px;
+}
+.STEPS {
+	float: left;
+	height: 107px;
+	width: 440px;
+	padding-left: 0px;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-bottom-style: double;
+	border-top-color: #FC3;
+	border-right-color: #FC3;
+	border-bottom-color: #FC3;
+	border-left-color: #FC3;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.RSTEPS {
+	margin: 0px;
+	float: left;
+	height: 100px;
+	width: 330px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	border: medium none #F90;
+}
+#RightWrapper {
+	margin: 0px;
+	float: left;
+	height: 600px;
+	width: 320px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#RWBOT {
+	margin: 0px;
+	float: left;
+	height: 260px;
+	width: 320px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#RWTOP {
+	margin: 0px;
+	float: left;
+	height: 270px;
+	width: 320px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.smallbut {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	text-decoration: none;
+	height: 90px;
+	width:310px;
+	margin:0px;
+	padding:0px;
+	background-image:url(/2007/VE/IMAGES/smallbutton.jpg)
+}
+
+.smallbut:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	text-decoration: none;
+	height: 90px;
+	width:310px;
+	margin:0px;
+	padding:0px;
+	background-image:url(/2007/VE/IMAGES/smallbuttonx.jpg)
+}
+
+
+.INPWrapper {
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	width: 400px;	 
+	
+}
+.LabelI {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	height: 30px;
+	width: 100px;
+	float: left;
+	
+	
+}
+.INP {
+	float: left;
+	height: 30px;
+	width: 200px;
+}
+
+.INSTRUCT {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #930;
+	height: 40px;
+	width: 400px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	float: left;
+}
+
+#hideShow {
+	height: 750px;
+	width: 700px;
+	margin-top:0px;
+	left: 50%;
+	margin-left: -350px;
+	z-index: 50;
+	background-color: #FFF;
+	display:none;
+	position: absolute;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-top-style: none;
+	border-right-style: groove;
+	border-bottom-style: none;
+	border-left-style: groove;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+
+#hideShow2 {
+	height: 300px;
+	width: 300px;
+	border: medium groove #000;
+	margin-top:150px;
+	left: 50%;
+	margin-left: -150px;
+	z-index: 50;
+	background-color: #FFF;
+	display: block;
+	position: absolute;
+}
+
+#nofor {
+	text-align: left;
+	float: left;
+	height: 150px;
+	width: 450px;
+	border: thin dashed #F00;
+	padding-left: 140px;
+}
+
+.SYBUT {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #00558A;
+	background-color: #FC0;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	height: 55px;
+	width: 146px;
+	border: thin solid #000;
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-top: 10px;
+	font-style: normal;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	text-decoration: none;
+	
+}
+
+.SYBUT:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #FFF;
+	background-color: #61a700;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	height: 55px;
+	width: 146px;
+	border: thin solid #000;
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-top: 10px;

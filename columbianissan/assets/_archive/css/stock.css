@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.red {
+	color: #F00;		
+	
+}
+
+.textbox {
+	float: left;
+	width: 200px;
+	border: thin groove #000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #069;
+	height: 25px;
+	position: relative;
+	text-align: center;
+}
+
+
+
+.columnwrap {
+	float: left;
+	height:430px;
+	width:675px;
+	margin-top: 5px;
+	padding-right: 10px;
+	padding-left: 200px;
+}
+.columnwrapbanner {
+	float: left;
+	height:30px;
+	width:930px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	color: #039;
+	margin-top: 15px;
+	text-align: center;
+	border-bottom-width: thin;
+	border-bottom-style: groove;
+	border-bottom-color: #06C;
+}
+
+
+
+.columnL {
+	float: left;
+	height: 365px;
+	width: 220px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-right-width: thin;
+	border-right-style: groove;
+	border-right-color: #999;
+	padding-top: 0px;
+	padding-right: 30px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.columnR {
+	float: left;
+	height: 365px;
+	width: 220px;
+	margin-top: 3px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-left-width: thin;
+	border-left-style: groove;
+	border-left-color: #999;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+}
+.columntop {
+	float: left;
+	height: 22px;
+	width: 220px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+	color: #F60;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	margin-right: 0px;
+	text-align: center;
+}
+.columnphoto {
+	float: left;
+	height: 270px;
+	width: 220px;
+	padding-top: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	text-align: center;
+}
+.columnmiddle {
+	float: left;
+	height: 50px;
+	width: 200px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+}
+.columnbottom {
+	float: left;
+	height: 38px;
+	width: 180px;
+	padding-right: 10px;
+	padding-left: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	color: #000;
+	margin-top: 10px;
+}
+
+.formdropdown {
+	width: 175px;
+}

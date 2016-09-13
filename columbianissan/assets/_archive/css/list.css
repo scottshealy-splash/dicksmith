@@ -1,0 +1,454 @@
+a:link.sortbycolor {
+	color: #333;
+	text-decoration: none;
+}
+a:visited.sortbycolor {
+	color: #333;
+	text-decoration: none;
+}
+a:hover.sortbycolor { color: #F00; text-decoration: none; }
+a:active.sortbycolor {
+	color: #333;
+	text-decoration: none;
+}
+
+a:link.sortbycolorb { color: #F00; text-decoration: none; }
+a:visited.sortbycolorb { color: #F00; text-decoration: none; }
+a:hover.sortbycolorb { color: #F00; text-decoration: none; }
+a:active.sortbycolorb { color: #F00; text-decoration: none; }
+
+
+.bannerwrap {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #06C;
+	margin: 0px;
+	float: left;
+	width: 930px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 20px;
+}
+
+.sortbywrap {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #333;
+	margin: 0px;
+	float: left;
+	width: 930px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: right;
+	height: 30px;
+}
+
+
+.listwrap {
+	float: left;
+	height: 360px;
+	width: 940px;
+	padding-top: 10px;
+	overflow: auto;
+}
+.listrow {
+	padding: 0px;
+	float: left;
+	height: 70px;
+	width: 900px;
+	margin-left: 10px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: dotted;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+}
+
+.listrowdivider {
+	padding: 0px;
+	float: left;
+	height: 30px;
+	width: 870px;
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color:#F90;
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:medium;
+	text-align: center;
+	font-weight: bold;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+
+
+.listrow:hover {
+	padding: 0px;
+	float: left;
+	height: 70px;
+	width: 900px;
+	background-color:#9CC;
+	margin-left: 10px;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-top-style:dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #F00;
+	border-right-color: #F00;
+	border-bottom-color: #F00;
+	border-left-color: #F00;
+}
+
+.listrow-count {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color:#000;
+}
+
+
+
+.listrow-photo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 80px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.listrow-info {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 290px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.listrow-info-title {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+	margin: 0px;
+	float: left;
+	height: 15px;
+	width: 280px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-transform: capitalize;
+	color: #390;
+	text-decoration: underline;
+}
+
+.listrow-info-detail {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-weight:normal;
+	margin: 0px;
+	float: left;
+	height: 45px;
+	width: 280px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-transform: capitalize;
+	color:#000;
+}
+
+.listrow-info-detail-bold {
+	color:#000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+.listrow-feature {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:x-small;
+	color: #000;
+	font-weight: bold;
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 150px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: auto;
+	
+}
+
+.listrow-miles {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:medium;
+	font-weight: bold;
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 60px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #069;
+}
+
+.listrow-price {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:medium;
+	font-weight: bold;
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 80px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #069;
+}
+
+.listrow_new_endcap {
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 130px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #069;
+	
+}
+
+.listrow_used_endcap {
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 80px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #069;
+	
+}
+
+.listrowlocation {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:x-small;
+	font-weight: bold;
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 80px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #000;
+	text-align: center;
+}
+
+.listrowCarfax {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:x-small;
+	font-weight: bold;
+	margin: 0px;
+	float: left;
+	height: 60px;
+	width: 60px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #000;
+	text-align: center;
+	
+}
+
+
+.listrowban {
+	color:#FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	padding: 0px;
+	float: left;
+	height: 20px;
+	width: 920px;
+	margin-left: 10px;
+	
+	background-color: #069;
+}
+
+.listrow-count-ban {
+	margin: 0px;
+	float: left;
+	height: 20px;
+	width: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+
+}
+
+.listrow-photo-ban {
+	margin: 0px;
+	float: left;
+	height: 20px;
+	width: 80px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+
+}
+
+.listrow-info-ban {
+	margin: 0px;
+	float: left;
+	height: 20px;
+	width: 290px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	
+}
+
+
+.listrow-feature-ban {
+	margin: 0px;
+	float: left;
+	height: 20px;
+	width: 150px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	
+	
+}
+
+.listrow-price-ban {
+	margin: 0px;
+	float: left;
+	height: 20px;
+	width: 80px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	text-align: center;
+}
+
+.listrow-miles-ban {
+	margin: 0px;
+	float: left;
+	height: 20px;
+	width: 60px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+	text-align: center;
+}
+
+.listrow-location-ban {
+	margin: 0px;
+	float: left;
+	height: 30px;
+	width: 80px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+		text-align: center;
+}
+.listrow-CarFax-ban {
+	margin: 0px;
+	float: left;
+	height: 30px;
+	width: 60px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #CCC;
+		text-align: center;	
+
+
+}

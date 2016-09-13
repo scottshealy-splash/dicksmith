@@ -1,0 +1,46 @@
+.rowwrap {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 112.5px;
+	width: 950px;
+}
+.rowbox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 104px;
+	width: 150px;
+	border: medium dashed #FFF;
+}
+
+.rowbox:hover {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 104px;
+	width: 150px;
+	border: medium dashed #F00;	
+}
+
+.rowbox-pic {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 81px;
+	width: 150px;
+}
+
+.rowbox-tag {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 20px;
+	width: 150px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000;
+}

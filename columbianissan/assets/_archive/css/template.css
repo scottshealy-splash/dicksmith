@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html {
+	height:100%;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+a:link {
+	color: #999;
+	text-decoration: none;
+}
+a:visited {
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F00;	
+}
+
+a:active {
+	color: #999;
+	text-decoration: none;
+	
+}
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #FFF;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	height: 100%;
+	text-decoration:none;
+}
+
+.container {
+	width: 950px;
+	min-height: 700px;
+	height: 100%;
+	max-width: 980px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	min-width: 800px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+	padding: 0;
+}
+
+.TOPBANNERLEFT {
+	margin: 0;
+	height: 60px;
+	float:left;
+	width:590px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.TOPBANNERRIGHT {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-small;
+	text-align: right;
+	margin: 0;
+	height: 60px;
+	float:left;
+	width:310px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+#TOPADDRESS {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-small;
+	text-align: right;	
+}
+
+.MENU {
+	margin: 0;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:0;
+	padding-top:0;
+	height: 40px;
+	float:left;
+	width: 940px;
+	
+}
+
+.STAGE {
+	margin: 0;
+	padding: 0;
+	height: 450px;
+	float:left;
+	width: 950px;
+}
+
+
+.FRTPHOTO {
+	margin: 0;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:0;
+	padding-top:10px;
+	height: 330px;
+	float:left;
+	width: 930px;
+	
+}
+
+.exteras {
+	height:10px;
+	float:left;
+	width: 930px;
+	margin-right: 4px;
+	margin-left: 4px;
+	color: #FFF;
+
+}
+
+.GROUP {
+	height: 110px;
+	float:left;
+	width: 930px;
+	border: medium solid #FFF;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-top: 10px;
+}
+
+.GROUP:hover {
+	height: 110px;
+	float:left;
+	width: 930px;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-top: 10px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #F00;
+	border-right-color: #F00;
+	border-bottom-color: #F00;
+	border-left-color: #F00;
+}
+
+
+
+#YBUTWRAP {
+	margin: 0px;
+	height: 85px;
+	width: 950px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	float: left;
+}
+.YBUT {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #00558A;
+	background-color: #FC0;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	height: 55px;
+	width: 146px;
+	border: thin solid #000;
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-top: 10px;
+	font-style: normal;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	text-decoration: none;
+	
+}
+
+.YBUT:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #FFF;
+	background-color: #61a700;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	height: 55px;
+	width: 146px;
+	border: thin solid #000;
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-top: 10px;
+	font-style: normal;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	text-decoration: none;
+	position: relative;
+}
+
+.SMALLYBUT {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #00558A;
+	background-color: #FC0;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	height: 30px;
+	width: 146px;
+	border: thin solid #000;
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-top: 5px;
+	font-style: normal;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	text-decoration: none;
+	position: relative;
+}
+
+.SMALLYBUT:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+	text-transform: capitalize;
+	color: #FFF;
+	background-color: #61a700;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	height: 30px;
+	width: 146px;
+	border: thin solid #000;
+	margin-right: 4px;
+	margin-left: 4px;
+	padding-top: 5px;
+	font-style: normal;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+#NAMEBOLD {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-small;
+	font-weight: bolder;
+	text-transform: capitalize;
+	letter-spacing: 0px;
+}
+
+
+
+#PHONEBOLD {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+}
+
+.bottommenu {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: x-small;
+	color: #999;
+	float: left;
+	height: 30px;
+	padding-left: 10px;
+	width: 900px;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;	
+}
+
+
+
+.nissanbanner {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 90px;
+	width: 950px;
+	border: thin solid #000;	
+}
+
+.nissanbanner:hover {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 90px;
+	width: 950px;
+	border: medium dashed #F00;
+}

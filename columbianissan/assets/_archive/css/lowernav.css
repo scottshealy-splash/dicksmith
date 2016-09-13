@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Footer */
+footer.bottomwrap {
+	clear: left;
+	
+	position: relative;
+	height: auto;
+	max-width: 930px;
+	margin: auto;
+	width: 960px;
+}
+
+ul.lownav {
+	color: #999;
+	font-size: .72em;
+	width: 100%;
+	margin-left: -3.8em;
+	white-space: nowrap;
+}
+
+ul.lownav li{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;
+	
+}
+
+#expandInfo {
+	background: none;
+	border: none;
+	color: #999;
+	font-weight: 100;
+	font-size: 1em;
+	cursor: pointer;
+	padding: none;
+	border-left: 1px solid #999;
+}
+
+#expandInfo:hover { color: red; }
+
+.lr_border_margin {
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	padding: 0 .4em 0 .4em;
+}
+
+.before_hyphen:before { content: " - "; }
+.novisible { display: none; }
+
+/* More Info */
+
+#expandTab {
+	position: relative;
+	max-width: 900px;
+}
+
+
+
+
+

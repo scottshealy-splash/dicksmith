@@ -1,0 +1,89 @@
+.rowwrap {
+	padding: 0px;
+	float: left;
+	height: 150px;
+	width: 950px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.rowbox {
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	padding: 0px;
+	float: left;
+	height: 124px;
+	width: 203px;
+	border: medium dashed #FFF;
+}
+
+.rowbox:hover {
+	padding: 0px;
+	float: left;
+	height: 124px;
+	width: 203px;
+	border: medium dashed #F00;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;	
+}
+
+.rowboxspacer {
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;	
+	padding: 0px;
+	float: left;
+	height: 124px;
+	width: 203px;
+	border: medium dashed #FFF;
+}
+
+.rowbox-pic {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 104px;
+	width: 203px;
+}
+
+.rowbox-tag {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 20px;
+	width: 203px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000;
+}
+
+.com_side {
+	margin: 3px;
+	padding: 0px;
+	float: left;
+	height: 465px;
+	width: 455px;
+	border: medium solid #000;
+	position: relative;
+}
+
+
+	
+.com_side:hover {
+	margin: 3px;
+	padding: 0px;
+	float: left;
+	height: 465px;
+	width: 455px;
+	border: medium dotted #F00;
+	position: relative;
+}

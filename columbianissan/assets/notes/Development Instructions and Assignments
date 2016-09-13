@@ -1,0 +1,140 @@
+COLUMBIANISSAN.DICKSMITH.COM
+PAGE DEVELOPMENT LISTING | DEVELOPMENT INSTRUCTIONS AND ASSIGNMENTS
+
+HOME (columbianissan.dicksmith.com)
+- Header
+	Assigned: Scott & Jon
+	Scott to complete site branding.
+	Jon to complete responsive navigation menu.
+
+- Primary Banner
+	Assigned to Scott & Jon
+	Scott to complete structure development.
+	Jon to integrate responsive image carousel.
+
+- Links
+	Assigned to Scott
+	Provide banner links to specified pages.
+
+- Secondary Banner
+	Assigned to Scott
+	Provide area to display promotional information and banners.
+
+- Footer
+	Assigned to Scott
+	Provide global footer styling and content.
+
+VEHICLE SEARCH (/inventory.cfm)
+	Assigned to Scott
+	Provides listing of all cars in inventory. Should be developed as an unordered data list.
+
+	- New Vehicles (/new-cars-trucks)
+		Assigned to Scott
+		Provides landing page displaying images of all types of new vehicles.
+
+	- Preowned Vehicles (/used-cars-trucks)
+		Assigned to Jon
+		Provides text lists for pre-owned inventory classifications with hover menus on each item.
+
+	- Commercial Vehicles (/commercial-vehicles)
+		Assigned to Scott
+		Provides landing page displaying images of all types of commercial vans and trucks.
+
+	- Search By Stock Number (/vin-stock-search)
+		Assigned to Scott & Jon
+		Page provides search of inventory based on stock number and VIN number.
+		Scott to provide markup of page.
+		Jon to configure search functionality.
+
+	- Get a Quote (/car-price-quote)
+		Assigned to Jon
+		Develop webform to collect customer contact information.
+
+VEHICLE EXCHANGE (/buy-my-used-car)
+	Assigned to Scott
+	One page to provide information on the used car purchasing program.
+
+	- Buy My Used Car Application (/buy-my-used-car-application)
+		Assigned to Jon
+		Develop webform to collect customer contact information.
+
+RENT-A-VEHICLE (rentalcar.dicksmith.com)
+	Assigned to Jon
+	No work to do. Simply provide link to page in main navigation and open in new tab.
+	Separate subdomain and not a part of this project's scope.
+
+SERVICE (/car-service)
+	Assigned to Jon
+	Landing page with general information on Service Department.
+
+	- Department Info (/car-service)
+		Assigned to Jon
+		No new work to be completed. Same page as primary Service landing page.
+		Simply include in main navigation menu structure.
+
+	- Email Service (/email-service-department)
+		Assigned to Jon
+		Simple webform to collect customer contact information.
+
+	- Make an Appointment (/service-appointment)
+		Assigned to Jon
+		Online scheduling application and webform.
+		Looks to be integrated with a third-party application?
+		May have questions on this...
+
+PARTS (/car-truck-parts)
+	Assigned to Jon
+	Similar structure as Service section. Simple landing page with general information on Parts Department.
+
+	- Department Info (/car-truck-parts)
+		Assigned to Jon
+		No new work to be completed. Same page as primary Parts landing page.
+		Simply include in main navigation menu structure.
+
+	- Email Parts (/email-parts-department)
+		Assigned to Jon
+		Webform to collect customer contact information.
+
+CONTACT US (/contact-us)
+	Assigned to Jon
+	Webform to collect customer contact information.
+	Display tables disclosing hours of operation.
+
+ONLINE CREDIT (/car-financing)
+	Assigned to Jon
+	Webform to collect customer information for online application process.
+
+GLOBAL PAGES
+- Sitemap (/sitemap)
+	Assigned to Scott & Jon
+	Unordered list of all pages.
+	Will need script to autopopulate and append any new pages to list.
+
+- Jobs (dicksmith.com/careers)
+	Assigned to Scott
+	No new work to be completed. Simply include in footer navigation and open in new tab.
+	Separate subdomain and not a part of this project's scope.
+
+- Privacy Policy (dicksmith.com/privacystatement.cfm)
+	Assigned to Scott
+	No new work to be completed. Simply include in footer navigation and open in new tab.
+	Separate subdomain and not a part of this project's scope.
+
+- All Inventory (/all-inventory)
+	Assigned to Jon
+	Unordered listing of all items in inventory with links to each detail page.
+	Need to autopopulate and append any new pages to this list.
+
+- Vehicle Detail Page
+	Assigned to Jon
+	Integrate responsive mobile carousel.
+	Data lists for details and features.
+	Contact form for application.
+	Similar vehicles filter list.
+	Integrated Google map.
+	Integrate rewards card program banner and API
+
+MISCELLANEOUS ITEMS
+- Online Chat
+	Floating banner appears on webpage after specified period of time.
+	Get Help banner button fixed to right window frame.

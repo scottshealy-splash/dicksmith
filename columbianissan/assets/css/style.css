@@ -1,0 +1,432 @@
+ /* DICK SMITH COLUMBIA NISSAN | STYLESHEET */
+
+/*
+	GLOBAL STYLES
+	Section includes global site styles.
+*/
+
+/* GLOBAL STYLES */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+html {
+	background-color: #dbdbdb;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAK0lEQVQIW2NkwA2MGXHIGQPFz2KTBEuANKFLwiXQJVEkkCUxJGCSWCVAkgAgugY78ir7SwAAAABJRU5ErkJggg==");
+	background-repeat: repeat;
+	overflow-x: hidden;
+}
+body {
+	font-family: Lato, Helvetica, Arial, sans-serif;
+}
+img {
+	height: auto;
+	width: 100%;
+	display: block;
+}
+.clearfix {
+	zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {} /* END 768px */
+@media screen and (min-width: 992px) {} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */
+
+/* DEVICE DISPLAY PROPERTIES */
+.hide-mobile {
+	display: none !important;
+}
+.hide-tablet {
+	display: none !important;
+}
+.hide-desktop {
+	display: initial;
+}
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {
+	.hide-mobile {
+		display: initial;
+	}
+} /* END 768px */
+@media screen and (min-width: 992px) {
+	.hide-tablet {
+		display: initial;
+	}
+	.hide-desktop {
+		display: none !important;
+	}
+} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */
+
+/* GRID-12 FRAMEWORK */
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-10,
+.grid-11,
+.grid-12 {
+	width: 100.00%;
+	display: inline;
+	float: left;
+}
+@media screen and (min-width: 480px) {
+	.grid-1,
+	.grid-2,
+	.grid-3,
+	.grid-4 {
+		width: 50.00%;
+	}
+	.grid-5,
+	.grid-6,
+	.grid-7,
+	.grid-8,
+	.grid-9,
+	.grid-10,
+	.grid-11,
+	.grid-12 {
+		width: 100.00%;
+	}
+} /* END 480px */
+@media screen and (min-width: 768px) {
+	.grid-1,
+	.grid-2,
+	.grid-3 {
+		width: 25.00%;
+	}
+	.grid-4 {
+		width: 33.33%;
+	}
+	.grid-5,
+	.grid-6,
+	.grid-7 {
+		width: 50.00%;
+	}
+	.grid-8 {
+		width: 66.66%;
+	}
+	.grid-9,
+	.grid-10,
+	.grid-11 {
+		width: 75.00%;
+	}
+	.grid-12 {
+		width: 100.00%;
+	}
+} /* END 768px */
+@media screen and (min-width: 992px) {
+	.grid-1 {
+		width: 8.33%;
+	}
+	.grid-2 {
+		width: 16.66%;
+	}
+	.grid-3 {
+		width: 25.00%;
+	}
+	.grid-4 {
+		width: 33.33%;
+	}
+	.grid-5 {
+		width: 41.66%;
+	}
+	.grid-6 {
+		width: 50.00%;
+	}
+	.grid-7 {
+		width: 58.33%;
+	}
+	.grid-8 {
+		width: 66.66%;
+	}
+	.grid-9 {
+		width: 75.00%;
+	}
+	.grid-10 {
+		width: 83.33%;
+	}
+	.grid-11 {
+		width: 91.66%;
+	}
+	.grid-12 {
+		width: 100.00%;
+	}
+} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */
+
+/* WRAPPERS - CONTAINERS */
+.wrapper-content {
+	height: auto;
+	width: 100%;
+	display: block;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.wrapper-video {
+	height: 0px;
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 56.25%;
+}
+.wrapper-video iframe {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {} /* END 768px */
+@media screen and (min-width: 992px) {} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */
+
+/* TEXT STYLES */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.10;
+	display: block;
+	margin: 20px 0px;
+}
+h1 {
+	font-size: 2.25em;
+}
+h2 {
+	font-size: 2.00em;
+}
+h3 {
+	font-size: 1.75em;
+}
+h4 {
+	font-size: 1.50em;
+}
+h5 {
+	font-size: 1.25em;
+}
+h6 {
+	font-size: 1.00em;
+}
+p {
+	font-size: 1.00em;
+	margin-bottom: 20px;
+}
+li {
+	font-size: 1.00em;
+	margin-bottom: 5px;
+}
+@media screen and (min-width: 480px) {
+	h1 {
+		font-size: 2.25em;
+	}
+	h2 {
+		font-size: 2.00em;
+	}
+	h3 {
+		font-size: 1.75em;
+	}
+	h4 {
+		font-size: 1.50em;
+	}
+	h5 {
+		font-size: 1.25em;
+	}
+	h6 {
+		font-size: 1.00em;
+	}
+	p,
+	li {
+		font-size: 1.00em;
+	}
+} /* END 480px */
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 2.50em;
+	}
+	h2 {
+		font-size: 2.25em;
+	}
+	h3 {
+		font-size: 2.00em;
+	}
+	h4 {
+		font-size: 1.75em;
+	}
+	h5 {
+		font-size: 1.50em;
+	}
+	h6 {
+		font-size: 1.25em;
+	}
+	p,
+	li {
+		font-size: 1.00em;
+	}
+} /* END 768px */
+@media screen and (min-width: 992px) {
+	h1 {
+		font-size: 2.75em;
+	}
+	h2 {
+		font-size: 2.50em;
+	}
+	h3 {
+		font-size: 2.25em;
+	}
+	h4 {
+		font-size: 2.00em;
+	}
+	h5 {
+		font-size: 1.75em;
+	}
+	h6 {
+		font-size: 1.50em;
+	}
+	p,
+	li {
+		font-size: 1.00em;
+	}
+} /* END 992px */
+@media screen and (min-width: 1200px) {
+	h1 {
+		font-size: 3.00em;
+	}
+	h2 {
+		font-size: 2.75em;
+	}
+	h3 {
+		font-size: 2.50em;
+	}
+	h4 {
+		font-size: 2.25em;
+	}
+	h5 {
+		font-size: 2.00em;
+	}
+	h6 {
+		font-size: 1.75em;
+	}
+	p,
+	li {
+		font-size: 1.00em;
+	}
+} /* END 1200px */
+@media screen and (min-width: 1366px) {
+	h1 {
+		font-size: 3.25em;
+	}
+	h2 {
+		font-size: 3.00em;
+	}
+	h3 {
+		font-size: 2.75em;
+	}
+	h4 {
+		font-size: 2.50em;
+	}
+	h5 {
+		font-size: 2.25em;
+	}
+	h6 {
+		font-size: 2.00em;
+	}
+	p,
+	li {
+		font-size: 1.00em;
+	}
+} /* END 1366px */
+
+/* BUTTONS & LINKS */
+a {
+	text-decoration: none;
+	color: #810a1a;
+}
+a:hover {
+	text-decoration: none;
+	color: #b36c76;
+}
+a img:hover {
+	opacity: 0.80;
+}
+.link-phone,
+.link-phone:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: inherit;
+}
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {} /* END 768px */
+@media screen and (min-width: 992px) {} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */
+
+/*
+	PAGE STYLES
+	Section incldues Header and Footer Styles
+*/
+/* #HEADER-PRIMARY */
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {} /* END 768px */
+@media screen and (min-width: 992px) {} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */
+
+/* #FOOTER-PRIMARY */
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {} /* END 768px */
+@media screen and (min-width: 992px) {} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */
+
+/*
+	COLUMBIANISSAN-HOME
+	Section includes all home page styles.
+*/
+
+/*
+	NEW & USED VEHICLES
+	Section includes all styling for new and used vehicle landing pages.
+*/
+
+/*
+	VEHICLE DETAIL PAGE
+	Section includes all styling for Vehicle Detail page.
+*/
+
+/*
+	VEHICLE EXCHANGE
+	Section includes all styling for Vehicle Exchange page.
+*/
+
+/*
+	SERVICE & PARTS
+	Section includes all styling for Service & Parts department pages.
+*/
+
+/*
+	WEBFORMS
+	Section includes all form stylings.
+*/
+
+/*
+	SITEMAP
+	Includes all styles for sitemap page.

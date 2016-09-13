@@ -11,7 +11,7 @@
 	margin: 0px;
 }
 html {
-	background-color: #dbdbdb;
+	/*background-color: #dbdbdb;*/
 	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAK0lEQVQIW2NkwA2MGXHIGQPFz2KTBEuANKFLwiXQJVEkkCUxJGCSWCVAkgAgugY78ir7SwAAAABJRU5ErkJggg==");
 	background-repeat: repeat;
 	overflow-x: hidden;

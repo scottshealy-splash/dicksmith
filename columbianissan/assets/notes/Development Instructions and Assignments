@@ -25,7 +25,7 @@ HOME (columbianissan.dicksmith.com)
 	Provide global footer styling and content.
 
 VEHICLE SEARCH (/inventory.cfm)
-	Assigned to Scott
+	Assigned to Jon
 	Provides listing of all cars in inventory. Should be developed as an unordered data list.
 
 	- New Vehicles (/new-cars-trucks)
@@ -41,7 +41,7 @@ VEHICLE SEARCH (/inventory.cfm)
 		Provides landing page displaying images of all types of commercial vans and trucks.
 
 	- Search By Stock Number (/vin-stock-search)
-		Assigned to Scott & Jon
+		Assigned to Jon
 		Page provides search of inventory based on stock number and VIN number.
 		Scott to provide markup of page.
 		Jon to configure search functionality.
@@ -125,6 +125,10 @@ GLOBAL PAGES
 	Unordered listing of all items in inventory with links to each detail page.
 	Need to autopopulate and append any new pages to this list.
 
+- Vehicle Category Page (Example - /new-nissan-altima-sedan-columbia-sc)
+	Assigned to Jon
+	Filtered list based on vehicle selection criteria.
+
 - Vehicle Detail Page
 	Assigned to Jon
 	Integrate responsive mobile carousel.
@@ -136,5 +140,6 @@ GLOBAL PAGES
 
 MISCELLANEOUS ITEMS
 - Online Chat
+	Assigned to Jon
 	Floating banner appears on webpage after specified period of time.
 	Get Help banner button fixed to right window frame.

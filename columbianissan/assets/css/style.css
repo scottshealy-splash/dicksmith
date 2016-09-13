@@ -499,7 +499,9 @@ a img:hover {
 @media screen and (min-width: 480px) {} /* END 480px */
 @media screen and (min-width: 768px) {} /* END 768px */
 @media screen and (min-width: 992px) {} /* END 992px */
-@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1200px) {
+	.container { width: 1030px; }
+} /* END 1200px */
 @media screen and (min-width: 1366px) {} /* END 1366px */
 
 /*
@@ -604,11 +606,7 @@ a img:hover {
 }
 
 @media screen and (min-width: 480px) {} /* END 480px */
-@media screen and (min-width: 768px) {
-		.minheight-ctp {
-			min-height: 485px;
-		}
-	} /* END 768px */
+@media screen and (min-width: 768px) {} /* END 768px */
 @media screen and (min-width: 992px) {
 		.minheight-ctp {
 			min-height: 445px;

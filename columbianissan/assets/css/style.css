@@ -805,3 +805,69 @@ a img:hover {
 .box-hoo-cu h3 {
 	border-bottom: 1px solid #000;
 }
+
+/*
+	BUY MY USED CAR
+*/
+.byuc-list {
+	padding: 2em;
+}
+.byuc-list .box {
+	position: relative;
+	padding: 1em;
+}
+.byuc-list .box:before {
+    background-color: black;
+    background-image: linear-gradient(to right, purple, #2980b9);
+    display: block;
+    height: 1px;
+    margin: 0.5em 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+}
+.byuc-list .box:first-child:before {
+	display: none;
+}
+.byuc-list h2 {
+	margin: 0;
+}
+.byuc-list h3 {
+	margin: 0 0 0 2em;
+}
+.byuc-list .list-num {
+	color: #2980b9;
+	padding: 0;
+	margin: 0;
+	font-size: 2em;
+}
+.get-started {
+	padding: 1em 0 0 0;
+}
+.get-started a {
+	display: inline-block;
+	background: #f1c40f;
+	border: 1px solid rgba(52, 152, 219, 0.3);
+	border-radius: 0.5em;
+	font-size: 1em;
+	text-align: center;
+	color: #2980b9;
+	padding: 0.75em;
+}
+.get-started a:hover {
+	background: #2980b9;
+	color: #fff;
+}
+.img-video {
+	text-align: center;
+	padding: 5em 0 1em 0;
+}
+.img-video .iv-image {
+	margin: 0 0 4em 0;
+}
+.iv-video {
+	display: inline-block;
+	text-align: left;
+}

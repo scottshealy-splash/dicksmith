@@ -98,6 +98,9 @@ input.btn-reset {
 .form select.width-5em {
 	width: 5em;
 }
+.text-orange {
+	color: #e67e22;
+}
 
 /* DEVICE DISPLAY PROPERTIES */
 .hide-mobile {

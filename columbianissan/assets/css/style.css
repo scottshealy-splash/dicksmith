@@ -559,6 +559,21 @@ a img:hover {
 } /* END 1200px */
 @media screen and (min-width: 1366px) {} /* END 1366px */
 
+/* GEO FOOTER*/
+#geo .column-left .block {
+	padding: 1em;
+}
+#geo .column-left p {
+	margin: 0;
+	padding: 0;
+}
+#geo .column-left h5 {
+	color: #666;
+	text-decoration: underline;
+	margin: 0;
+	padding: 0;
+}
+
 /*
 	COLUMBIANISSAN-HOME
 	Section includes all home page styles.
@@ -696,12 +711,12 @@ a img:hover {
 .epd-form {
 	padding: 0.5em 2.5em 1em;
 }
-.epd-form .block {
+.form .block {
 	position: relative;
 	padding: 1em 0;
 	margin: 0.5em 0 0 0;
 }
-.epd-form .block:before {
+.form .block:before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -711,18 +726,18 @@ a img:hover {
 	background: linear-gradient(to right, purple, #2980b9);
 	background-color: #000;
 }
-.epd-form .block:first-child {
+.form .block:first-child {
 	padding-top: 0;
 	margin-top: 0;
 }
-.epd-form .block:first-child:before {
+.form .block:first-child:before {
 	display: none;
 }
-.epd-form h3 {
+.form h3 {
 	color: #e67e22;
 	letter-spacing: 0.2em;
 }
-.epd-form .box {
+.form .box {
 	margin: 0 0 1.5em 0;
 }
 
@@ -754,3 +769,36 @@ a img:hover {
 /*
 	SITEMAP
 	Includes all styles for sitemap page.
+*/
+
+/*
+	CONTACT US
+*/
+#content-primary-contactus h1 {
+	border-bottom: thin solid;
+	color: #777;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-left: 1em;
+	padding-top: 5px;
+}
+
+.contactus-form {
+	margin: 1em;
+	border: 1px solid darkgrey;
+}
+
+.cu-form-pad {
+	padding: 0.5em 2.5em 1em;
+}
+
+.box-hoo-cu {
+	border: 1px solid darkgrey;
+	padding: 1em;
+	margin: 1em;
+}
+
+.box-hoo-cu h3 {
+	border-bottom: 1px solid #000;
+}

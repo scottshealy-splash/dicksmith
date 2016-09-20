@@ -890,8 +890,7 @@ a img:hover {
 .vehicle-wrapper .box {
 	display: inline-block;
 	margin: 0.5em;
-	/*padding: 1em 0.2em;*/
-	padding: 1em 0.5em;
+	padding: 1em 0.2em;
 	border: 3px solid #fff;
 	vertical-align: top;
 }
@@ -905,4 +904,12 @@ a img:hover {
 .cv-img,
 .cv-caption {
 	width: 203px;
+}
+#content-primary-newcarstrucks.cv-img img {
+	max-width: 151px;
+	max-height: 80px;
+}
+#content-primary-newcarstrucks .cv-img,
+#content-primary-newcarstrucks .cv-caption {
+	width: 181px;
 }

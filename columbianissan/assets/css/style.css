@@ -871,3 +871,38 @@ a img:hover {
 	display: inline-block;
 	text-align: left;
 }
+/*
+	COMMERCIAL VEHICLES
+*/
+.cv-title {
+	text-align: center;
+	padding: 0.5em 1em;
+}
+.cv-title h1,
+.cv-title h3 {
+	padding: 0;
+	margin: 0;
+}
+.vehicle-wrapper {
+	padding: 0 2em 1em;
+	text-align: center;
+}
+.vehicle-wrapper .box {
+	display: inline-block;
+	margin: 0.5em;
+	/*padding: 1em 0.2em;*/
+	padding: 1em 0.5em;
+	border: 3px solid #fff;
+	vertical-align: top;
+}
+.vehicle-wrapper .box:hover {
+	border: 3px solid rgb(6, 73, 115);
+}
+.cv-img img {
+	max-width: 203px;
+	max-height: 104px;
+}
+.cv-img,
+.cv-caption {
+	width: 203px;
+}

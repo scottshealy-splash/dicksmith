@@ -11,6 +11,7 @@
 	margin: 0px;
 }
 html {
+<<<<<<< HEAD
 	font-family: Lato, Helvetica, Arial, sans-serif;
 }
 body {
@@ -18,14 +19,26 @@ body {
 	width: 100vw;
 	display: block;
 	background-color: #dbdbdb;
+=======
+	/*background-color: #dbdbdb;*/
+>>>>>>> be2cd2e4f7133253c83016504fbe8dd1cdfdd7bc
 	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAK0lEQVQIW2NkwA2MGXHIGQPFz2KTBEuANKFLwiXQJVEkkCUxJGCSWCVAkgAgugY78ir7SwAAAABJRU5ErkJggg==");
 	background-repeat: repeat;
 	overflow-x: hidden;
 }
+<<<<<<< HEAD
+=======
+body {
+	font-family: Lato, Helvetica, Arial, sans-serif;
+	background: transparent;
+}
+>>>>>>> be2cd2e4f7133253c83016504fbe8dd1cdfdd7bc
 img {
 	height: auto;
-	width: 100%;
-	display: block;
+	width: auto;
+	max-width: 100%;
+	/*width: 100%;
+	display: block;*/
 }
 .clearfix {
 	zoom: 1;
@@ -43,6 +56,64 @@ img {
 @media screen and (min-width: 992px) {} /* END 992px */
 @media screen and (min-width: 1200px) {} /* END 1200px */
 @media screen and (min-width: 1366px) {} /* END 1366px */
+
+input.btn-submit {
+	width: auto !important;
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(239, 209, 86, 1) 0%, rgba(241, 196, 15, 1) 100%) repeat scroll 0 0;
+	border: 1px solid rgba(243, 156, 18, 1);
+	border-radius: 0.3em;
+	box-shadow: 0 1px 0 rgba(236, 240, 241, 1) inset;
+	color: #2c3e50;
+	display: inline-block;
+	letter-spacing: 0.3em;
+	text-shadow: 0 -1px 0 rgba(236, 240, 241, 0.5);
+	font-weight: normal;
+	font-size: 1em;
+}
+input.btn-submit:hover {
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(237, 192, 11, 1) 1%, rgba(241, 196, 15, 1) 100%) repeat scroll 0 0;
+}
+input.btn-reset {
+	width: auto !important;
+}
+.form label {
+	display: block;
+	color: rgb(6, 73, 115);
+	margin: 0 0 0.5em 0;
+}
+.form label span,
+.req {
+	color: #e74c3c;
+}
+.form input,
+.form select {
+	width: 15em;
+	padding: 0.5em 1em;
+	max-width: 100%;
+}
+.form textarea {
+	width: 100%;
+	max-width: 400px;
+	height: 100px;
+	padding: 0.5em 1em;
+}
+.form .captcha-holder {
+	margin: 0 0 1.5em 0;
+}
+.form small {
+	color: rgb(6, 73, 115);
+	margin: 0 0 0 0.5em;
+}
+.form select.width-8em {
+	width: 8em;
+	margin-right: 1em;
+}
+.form select.width-5em {
+	width: 5em;
+}
+.text-orange {
+	color: #e67e22;
+}
 
 /* DEVICE DISPLAY PROPERTIES */
 .hide-mobile {
@@ -427,10 +498,31 @@ a img:hover {
 /*
 	PAGE STYLES
 	Section incldues Header and Footer Styles
+	and container-wrapper
 */
+
+#header-primary,
+#footer-primary,
+.container-wrapper {
+	box-shadow: 0 0 10px 1px rgba(52, 73, 94, 0.4);
+}
+
+.container-wrapper {
+	max-width: 1000px;
+	margin: 1em auto;
+	background: #fff;
+}
+
 /* #HEADER-PRIMARY */
 #header-primary {
+<<<<<<< HEAD
 	height: auto;
+=======
+	background: #fff;
+}
+#header-logo {
+	height: 68px;
+>>>>>>> be2cd2e4f7133253c83016504fbe8dd1cdfdd7bc
 	width: 100%;
 	display: block;
 	background-color: #ffffff;
@@ -563,6 +655,7 @@ a img:hover {
 }
 @media screen and (min-width: 480px) {} /* END 480px */
 @media screen and (min-width: 768px) {} /* END 768px */
+<<<<<<< HEAD
 @media screen and (min-width: 992px) {
 	#footer-primary {
 		position: absolute;
@@ -571,7 +664,28 @@ a img:hover {
 	}
 } /* END 992px */
 @media screen and (min-width: 1200px) {} /* END 1200px */
+=======
+@media screen and (min-width: 992px) {} /* END 992px */
+@media screen and (min-width: 1200px) {
+	.container { width: 1030px; }
+} /* END 1200px */
+>>>>>>> be2cd2e4f7133253c83016504fbe8dd1cdfdd7bc
 @media screen and (min-width: 1366px) {} /* END 1366px */
+
+/* GEO FOOTER*/
+#geo .column-left .block {
+	padding: 1em;
+}
+#geo .column-left p {
+	margin: 0;
+	padding: 0;
+}
+#geo .column-left h5 {
+	color: #666;
+	text-decoration: underline;
+	margin: 0;
+	padding: 0;
+}
 
 /*
 	COLUMBIANISSAN-HOME
@@ -698,6 +812,110 @@ a img:hover {
 	SERVICE & PARTS
 	Section includes all styling for Service & Parts department pages.
 */
+/* cart truck parts */
+#content-primary-ctp .container-wrapper {
+	padding: 2em 1.5em;
+}
+.minheight-ctp {
+	overflow: hidden;
+	padding: 0 0 30px 0;
+}
+.logo-wrappers {
+	padding: 2em;
+}
+.svc-pd-logo {
+	display: inline-block;
+	padding: 0.5em;
+}
+.logo-wrappers-l .svc-pd-logo img {
+	height: 80px;
+}
+
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (min-width: 768px) {} /* END 768px */
+@media screen and (min-width: 992px) {
+		.minheight-ctp {
+			min-height: 445px;
+		}
+	} /* END 992px */
+@media screen and (min-width: 1200px) {
+		.minheight-ctp {
+			min-height: 485px;
+		}
+	} /* END 1200px */
+@media screen and (min-width: 1366px) {
+		.minheight-ctp {
+			min-height: 575px;
+		}
+	} /* END 1366px */
+
+/* email parts department */
+.form-header {
+	background: rgba(0, 0, 0, 0) url("../img/location/loc-banner-dark.jpg") repeat scroll 0 0 / 1000px 200px;
+	color: #fff;
+	border-bottom: 1px solid grey;
+	padding: 1.5em 2.5em;
+	margin: 0 0 1em 0;
+}
+.form-header h1 {
+	display: inline-block;
+	border-bottom: 1px solid #fff;
+	padding: 0 0 0.4em 0;
+	margin: 0 0 0.1em 0;
+}
+
+.epd-form {
+	padding: 0.5em 2.5em 1em;
+}
+.form .block {
+	position: relative;
+	padding: 1em 0;
+	margin: 0.5em 0 0 0;
+}
+.form .block:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 1px;
+	width: 100%;
+	background: linear-gradient(to right, purple, #2980b9);
+	background-color: #000;
+}
+.form .block:first-child {
+	padding-top: 0;
+	margin-top: 0;
+}
+.form .block:first-child:before {
+	display: none;
+}
+.form h3 {
+	color: #e67e22;
+	letter-spacing: 0.2em;
+}
+.form .box {
+	margin: 0 0 1.5em 0;
+}
+
+/* carfinancing*/
+.box-side {
+	display: inline-block;
+	margin-right: 1em;
+}
+.resradio label,
+.resradio input {
+	display: inline-block;
+	width: auto !important;
+}
+.resradio input {
+	margin: 0 5px;
+}
+.inline-block {
+	display: inline-block !important;
+}
+.margin-right-1em {
+	margin-right: 1em !important;
+}
 
 /*
 	WEBFORMS
@@ -707,3 +925,144 @@ a img:hover {
 /*
 	SITEMAP
 	Includes all styles for sitemap page.
+*/
+
+/*
+	CONTACT US
+*/
+#content-primary-contactus h1 {
+	border-bottom: thin solid;
+	color: #777;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-left: 1em;
+	padding-top: 5px;
+}
+
+.contactus-form {
+	margin: 1em;
+	border: 1px solid darkgrey;
+}
+
+.cu-form-pad {
+	padding: 0.5em 2.5em 1em;
+}
+
+.box-hoo-cu {
+	border: 1px solid darkgrey;
+	padding: 1em;
+	margin: 1em;
+}
+
+.box-hoo-cu h3 {
+	border-bottom: 1px solid #000;
+}
+
+/*
+	BUY MY USED CAR
+*/
+.byuc-list {
+	padding: 2em;
+}
+.byuc-list .box {
+	position: relative;
+	padding: 1em;
+}
+.byuc-list .box:before {
+    background-color: black;
+    background-image: linear-gradient(to right, purple, #2980b9);
+    display: block;
+    height: 1px;
+    margin: 0.5em 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+}
+.byuc-list .box:first-child:before {
+	display: none;
+}
+.byuc-list h2 {
+	margin: 0;
+}
+.byuc-list h3 {
+	margin: 0 0 0 2em;
+}
+.byuc-list .list-num {
+	color: #2980b9;
+	padding: 0;
+	margin: 0;
+	font-size: 2em;
+}
+.get-started {
+	padding: 1em 0 0 0;
+}
+.get-started a {
+	display: inline-block;
+	background: #f1c40f;
+	border: 1px solid rgba(52, 152, 219, 0.3);
+	border-radius: 0.5em;
+	font-size: 1em;
+	text-align: center;
+	color: #2980b9;
+	padding: 0.75em;
+}
+.get-started a:hover {
+	background: #2980b9;
+	color: #fff;
+}
+.img-video {
+	text-align: center;
+	padding: 5em 0 1em 0;
+}
+.img-video .iv-image {
+	margin: 0 0 4em 0;
+}
+.iv-video {
+	display: inline-block;
+	text-align: left;
+}
+/*
+	COMMERCIAL VEHICLES
+*/
+.cv-title {
+	text-align: center;
+	padding: 0.5em 1em;
+}
+.cv-title h1,
+.cv-title h3 {
+	padding: 0;
+	margin: 0;
+}
+.vehicle-wrapper {
+	padding: 0 2em 1em;
+	text-align: center;
+}
+.vehicle-wrapper .box {
+	display: inline-block;
+	margin: 0.5em;
+	padding: 1em 0.2em;
+	border: 3px solid #fff;
+	vertical-align: top;
+}
+.vehicle-wrapper .box:hover {
+	border: 3px solid rgb(6, 73, 115);
+}
+.cv-img img {
+	max-width: 203px;
+	max-height: 104px;
+}
+.cv-img,
+.cv-caption {
+	width: 203px;
+}
+#content-primary-newcarstrucks.cv-img img {
+	max-width: 151px;
+	max-height: 80px;
+}
+#content-primary-newcarstrucks .cv-img,
+#content-primary-newcarstrucks .cv-caption {
+	width: 181px;
+}

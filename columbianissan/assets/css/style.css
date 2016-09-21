@@ -1071,10 +1071,58 @@ a img:hover {
 #content-primary-vss .container-wrapper {
 	padding: 3em;
 }
+#content-primary-vss .img-holder img {
+	max-width: 210px;
+	max-height: 230px;
+}
 #content-primary-vss .form {
 	padding: 0 0 1em 0;
 }
 #content-primary-vss .form input[type="submit"] {
 	display: block;
 	margin-top: 1em;
+}
+/*
+	USED CARS TRUCKS
+*/
+#content-primary-uct .header {
+	border-bottom: 5px solid rgb(6, 73, 115);
+}
+#content-primary-uct .header h1 {
+	padding: 0.75em;
+	margin: 0;
+	text-align: center;
+}
+.uct-list-wrap {
+	text-align: center;
+}
+.uct-list-box {
+	padding: 0 0 1em 0;
+}
+.uct-list-wrap ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.uct-list-wrap ul.uct-list li a {
+	display: block;
+	color: #777;
+	padding: 5px 15px;
+	position: relative;
+}
+.uct-list-wrap ul.uct-list li a:hover {
+	background: #810a1a;
+	box-shadow: 1em 0 0 #f1c40f inset;
+	color: #fff;
+}
+.uct-list-wrap ul.uct-list ul li a {
+	border-top: 1px solid #fff;
+	background: #777;
+	color: #fff;
+}
+.uct-list-wrap ul.uct-list > ul > li:first-child > a {
+	border-top: 0 none;
+}
+.uct-list-wrap ul.uct-list ul ul li a {
+	background: #999;
 }

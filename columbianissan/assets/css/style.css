@@ -1065,3 +1065,16 @@ a img:hover {
 #content-primary-newcarstrucks .cv-caption {
 	width: 181px;
 }
+/*
+	VIN STOCK SEARCH
+*/
+#content-primary-vss .container-wrapper {
+	padding: 3em;
+}
+#content-primary-vss .form {
+	padding: 0 0 1em 0;
+}
+#content-primary-vss .form input[type="submit"] {
+	display: block;
+	margin-top: 1em;
+}

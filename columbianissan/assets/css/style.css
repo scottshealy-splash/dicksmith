@@ -84,6 +84,10 @@ input.btn-reset {
 	padding: 0.5em 1em;
 	max-width: 100%;
 }
+.form input[type="checkbox"],
+.form input[type="radio"] {
+	width: auto;
+}
 .form textarea {
 	width: 100%;
 	max-width: 400px;
@@ -677,6 +681,9 @@ a img:hover {
 	text-decoration: underline;
 	margin: 0;
 	padding: 0;
+}
+#geo .column-left .box {
+	padding: 0 0 1em 0;
 }
 
 /*

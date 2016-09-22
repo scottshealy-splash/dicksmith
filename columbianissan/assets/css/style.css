@@ -1245,3 +1245,30 @@ a img:hover {
 } /* END 992px */
 @media screen and (min-width: 1200px) {} /* END 1200px */
 @media screen and (min-width: 1366px) {} /* END 1366px */
+/*
+	ALL INVENTORY
+*/
+.allinv-header {
+	padding: 1em 2em;
+}
+.allinv-block {
+	padding: 1em 2em;
+}
+.allinv-block h2 {
+	font-size: 1.2em;
+	margin-top: 0;
+}
+.allinv-block h2 a {
+	text-decoration: underline;
+}
+.allinv-block ul li {
+	list-style-type: none;
+}
+.divider {
+    background-color: black;
+    background-image: linear-gradient(to right, purple, #2980b9);
+    display: block;
+    height: 1px;
+    margin: 0.5em 0;
+    width: 100%;
+}

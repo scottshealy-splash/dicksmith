@@ -1258,11 +1258,13 @@ a img:hover {
 	font-size: 1.2em;
 	margin-top: 0;
 }
-.allinv-block h2 a {
+.allinv-block h2 a,
+.allinv-block h2 span {
 	text-decoration: underline;
 }
 .allinv-block ul li {
 	list-style-type: none;
+	margin: 0;
 }
 .divider {
     background-color: black;
@@ -1271,4 +1273,31 @@ a img:hover {
     height: 1px;
     margin: 0.5em 0;
     width: 100%;
+}
+/*
+	sitemap
+*/
+.sitemap-block h2 {
+	margin: 0;
+}
+.sitemap-body h3 {
+	font-size: 1.2em;
+	margin: 0;
+	text-decoration: underline;
+}
+.sitemap-body .box {
+	display: inline-block;
+	vertical-align: top;
+	padding: 1em 0.5em;
+}
+.sitemap-body ul li a {
+	color: #777;
+}
+.sitemap-body ul li a:hover {
+	color: #ff0505;
+}
+@media screen and (max-width: 479px) {
+	.sitemap-body .box {
+		display: block;
+	}
 }

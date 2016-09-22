@@ -1126,3 +1126,122 @@ a img:hover {
 .uct-list-wrap ul.uct-list ul ul li a {
 	background: #999;
 }
+/*
+	INVENTORY
+*/
+.inv-intro h1,
+.inv-intro p {
+	margin: 0;
+	padding: 1em 0.5em;
+	font-size: 100%;
+}
+.page-sorting {
+	text-align: right;
+	padding: 0.5em;
+	border-bottom: 0.5em solid #810a1a;
+}
+.page-sorting a {
+	color: #4b4a4a;
+}
+.page-sorting a:hover {
+	color: #f1c40f;
+}
+.pickertext {
+	color: #f50408;
+}
+.rowwrap_container {
+	border-bottom: 10px solid rgb(6, 73, 115);
+}
+.vehrow {
+	border-top: 2px solid rgba(52, 73, 94, 0.7);
+	padding: 0.5em;
+	min-height: 275px;
+	cursor: pointer;
+	position: relative;
+}
+.vehrow:hover {
+	box-shadow: 0 0 0.1em 0.3em #f1c40f inset;
+}
+.vehrow .posttitle h2,
+.vehrow .posttitle h2 a {
+	color: #777;
+	font-size: 24px;
+	font-weight: bold;
+}
+.vehrow .photocolumn img {
+	max-width: 200px;
+	max-height: 150px;
+	width: 100%;
+	height: auto;
+}
+.vehrow .details-left ul li {
+	list-style-type: none;
+	color: #000;
+	font-weight: 700;
+}
+.vehrow .details-left ul li span {
+	color: #777;
+	font-weight: 400;
+}
+.vehrow .details-right {
+	text-align: right;
+}
+.vehrow .details-right p {
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+	padding: 0 40px 3px 0;
+	margin: 0;
+}
+.vehrow .details-right p span {
+	font-size: 24px;
+	color: #777;
+	padding: 0 0 0 5px;
+}
+.vehrow .logos {
+	padding: 10px 20px 0 0;
+}
+.vehrow .logos .box {
+	display: inline-block;
+}
+.vehrow .logos .box img {
+	max-width: 80px;
+	margin: 0 2px;
+}
+.vehrow .features {
+	font-weight: 700;
+	color: #000;
+}
+.vehrow .features span {
+	font-weight: 400;
+}
+@media screen and (min-width: 480px) {} /* END 480px */
+@media screen and (max-width: 767px) {
+	.vehrow .photocolumn,
+	.vehrow .details-left,
+	.vehrow .details-right {
+		padding: 0 0 20px 0;
+		text-align: left;
+	}
+} /* END max 767px */
+@media screen and (min-width: 768px) {
+	.inv-intro-found {
+		text-align: right;
+	}
+} /* END 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.vehrow .details-right p,
+	.vehrow .logos {
+		padding-right: 0;
+	}
+} /* END min 768 max 991 */
+@media screen and (min-width: 992px) {
+	.rowwrap_container {
+	    max-height: 900px;
+	    min-height: 400px;
+	    overflow-x: hidden;
+	    overflow-y: auto;
+	}
+} /* END 992px */
+@media screen and (min-width: 1200px) {} /* END 1200px */
+@media screen and (min-width: 1366px) {} /* END 1366px */

@@ -801,6 +801,121 @@ a img:hover {
 	VEHICLE DETAIL PAGE
 	Section includes all styling for Vehicle Detail page.
 */
+#content-primary-details {
+
+}
+.vd-header {
+	background: #810a1a;
+}
+.vd-header h1 {
+	color: #fff;
+	margin: 0;
+	padding: 0.5em;
+}
+.details-info {
+	padding: 1em;
+}
+.details-info .box {
+	background: #dbdbdb;
+	border: 1px solid rgba(52, 152, 219, 0.3);
+	padding: 1em;
+	margin: 0 0 1em 0;
+}
+.details-info ul li {
+	list-style-type: none;
+}
+.details-info .options {
+	padding: 0 1.5em;
+}
+.details-info .options ul {
+	margin: 0;
+}
+.details-info .options ul li {
+	display: inline-block;
+	margin: 0;
+}
+.details-info .options ul li a {
+	color: #2980b9;
+	font-size: 14px;
+	display: inline-block;
+	padding: 0.5em;
+}
+.details-info .options ul li a:hover {
+	color: #fff;
+	background: #2980b9;
+}
+.details-info .options ul li a .fa {
+	font-size: 2em;
+}
+.details-info .options ul li a .fa,
+.details-info .options ul li a span {
+	display: inline-block;
+	vertical-align: middle;
+}
+.details-info .options ul li a span {
+	margin: 0 0 0 0.5em;
+}
+.details-info .cta-img {
+	margin: 0 0 1em 0;
+}
+.details-info .inquire p {
+	line-height: 2.5;
+}
+.details-info .inquire textarea {
+	width: 100%;
+	margin: 0 0 1em 0;
+	padding: 10px;
+	height: 100px;
+}
+.details-info .inquire .captcha-holder {
+	margin: 0 0 1em 0;
+}
+.details-info .inquire input {
+	padding: 0 10px;
+	width: 120px;
+	line-height: 2;
+}
+.details-info .inquire input[type="submit"] {
+	width: 100% !important;
+	padding: 10px;
+	margin: 0;
+}
+.details-info #zip {
+	width: 50px;
+}
+.details-info h2 {
+	margin-top: 0;
+}
+.details-info h2.with-underline {
+	border-bottom: 1px solid grey;
+	padding: 0 0 10px 0;
+}
+.details-info .similar-vehicles ul li {
+	margin-bottom: 10px;
+}
+.details-info .similar-vehicles ul li img {
+	max-width: 50px;
+	margin-right: 5px;
+}
+.details-info .similar-vehicles ul li a {
+	color: #777;
+}
+.details-info .similar-vehicles ul li a:hover {
+	color: #810a1a;
+	text-decoration: underline;
+}
+.social-panel ul,
+.social-panel ul li {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+.social-panel .stLarge {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin: 0 5px;
+}
 
 /*
 	VEHICLE EXCHANGE

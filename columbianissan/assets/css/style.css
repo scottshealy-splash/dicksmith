@@ -24,7 +24,7 @@ body {
 }
 body {
 	font-family: Lato, Helvetica, Arial, sans-serif;
-	background: transparent;
+	/*background: transparent;*/
 }
 img {
 	height: auto;
@@ -256,13 +256,13 @@ input.btn-reset {
 	padding: 10px;
 	box-sizing: border-box;
 }
-.wrapper-header,
+/*.wrapper-header,
 .wrapper-footer {
 	height: auto;
 	max-width: 1000px;
 	display: block;
 	margin: 0px auto;
-}
+}*/
 .wrapper-video {
 	height: 0px;
 	position: relative;
@@ -461,7 +461,7 @@ a:hover {
 a:active,
 a:visited,
 a:after {
-	color: #00ff00 !important;
+	/*color: #00ff00 !important*/;
 }
 a img:hover {
 	opacity: 0.80;
@@ -503,23 +503,28 @@ a img:hover {
 .container-wrapper {
 	box-shadow: 0 0 10px 1px rgba(52, 73, 94, 0.4);
 }
-
 .container-wrapper {
 	max-width: 1000px;
 	margin: 1em auto;
 	background: #fff;
 }
+#header-primary .wrapper-content,
+#footer-primary .wrapper-content {
+	background-color: transparent;
+	box-shadow: none;
+	margin: 0 auto;
+}
 
 /* #HEADER-PRIMARY */
 #header-primary {
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
 	height: auto;
-=======
+/*=======*/
 	background: #fff;
 }
 #header-logo {
 	height: 68px;
->>>>>>> be2cd2e4f7133253c83016504fbe8dd1cdfdd7bc
+/*>>>>>>> be2cd2e4f7133253c83016504fbe8dd1cdfdd7bc*/
 	width: 100%;
 	display: block;
 	background-color: #ffffff;
@@ -602,6 +607,7 @@ a img:hover {
 	background-color: #810a1a;
 	box-shadow: 0px -1px 10px #777777;
 	text-align: center;
+	padding: 10px 0;
 }
 #footer-primary .col-md-1,
 #footer-primary .col-md-2,
@@ -625,12 +631,15 @@ a img:hover {
 #footer-primary a:hover {
 	color: #f1c40f;
 }
-#footer-nav-links,
+#footer-copyright {
+	padding: 1em;
+}
+/*#footer-nav-links,
 #footer-copyright,
 #footer-nav-locations {
 	display: block;
 	margin-bottom: 10px;
-}
+}*/
 #footer-primary ul {
 	margin: 0px;
 }
@@ -647,9 +656,9 @@ a img:hover {
 #footer-primary ul li:last-child:after {
 	content: none;
 }
-#footer-nav-locations {
+/*#footer-nav-locations {
 	margin-bottom: 0px;
-}
+}*/
 @media screen and (min-width: 480px) {} /* END 480px */
 @media screen and (min-width: 768px) {} /* END 768px */
 <<<<<<< HEAD

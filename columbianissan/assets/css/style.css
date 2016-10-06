@@ -72,6 +72,7 @@ input.btn-reset {
 	display: block;
 	color: rgb(6, 73, 115);
 	margin: 0 0 0.5em 0;
+	font-weight: normal;
 }
 .form label span,
 .req {
@@ -311,13 +312,13 @@ h6:first-child {
 	margin-top: 0;
 }
 h1 {
-	font-size: 2.25em;
+	font-size: 1.5em;
 }
 h2 {
 	font-size: 2.00em;
 }
 h3 {
-	font-size: 1.75em;
+	font-size: 1em;
 }
 h4 {
 	font-size: 1.50em;
@@ -337,7 +338,7 @@ li {
 	margin-bottom: 5px;
 }
 @media screen and (min-width: 480px) {
-	h1 {
+	/*h1 {
 		font-size: 2.25em;
 	}
 	h2 {
@@ -355,13 +356,13 @@ li {
 	h6 {
 		font-size: 1.00em;
 	}
-	/*p,
+	p,
 	li {
 		font-size: 1.00em;
 	}*/
 } /* END 480px */
 @media screen and (min-width: 768px) {
-	h1 {
+	/*h1 {
 		font-size: 2.50em;
 	}
 	h2 {
@@ -379,13 +380,13 @@ li {
 	h6 {
 		font-size: 1.25em;
 	}
-	/*p,
+	p,
 	li {
 		font-size: 1.00em;
 	}*/
 } /* END 768px */
 @media screen and (min-width: 992px) {
-	h1 {
+	/*h1 {
 		font-size: 2.75em;
 	}
 	h2 {
@@ -403,14 +404,14 @@ li {
 	h6 {
 		font-size: 1.50em;
 	}
-	/*p,
+	p,
 	li {
 		font-size: 1.00em;
 	}*/
 } /* END 992px */
 /*@media screen and (min-width: 1200px) {*/
 @media screen and (min-width: 1030px) {
-	h1 {
+	/*h1 {
 		font-size: 1.5em;
 	}
 	h2 {
@@ -428,13 +429,13 @@ li {
 	h6 {
 		font-size: 1.75em;
 	}
-	/*p,
+	p,
 	li {
 		font-size: 1.00em;
 	}*/
 } /* END 1200px */
-/*@media screen and (min-width: 1366px) {
-	h1 {
+@media screen and (min-width: 1366px) {
+	/*h1 {
 		font-size: 3.25em;
 	}
 	h2 {
@@ -475,12 +476,12 @@ a:after {
 a img:hover {
 	opacity: 0.80;
 }
-.link-phone,
+/*.link-phone,
 .link-phone:hover {
 	text-decoration: none;
 	cursor: pointer;
 	color: inherit;
-}
+}*/
 .button {
 	padding: 10px;
 	box-sizing: border-box;
@@ -741,6 +742,9 @@ a img:hover {
 #geo .column-left .block {
 	padding: 1em;
 }
+#geo .column-left h3 {
+	font-size: 1.5em;
+}
 #geo .column-left p {
 	margin: 0;
 	padding: 0;
@@ -750,6 +754,8 @@ a img:hover {
 	text-decoration: underline;
 	margin: 0;
 	padding: 0;
+	font-weight: normal;
+	font-size: 1em;
 }
 #geo .column-left .box {
 	padding: 0 0 1em 0;
@@ -879,7 +885,8 @@ a img:hover {
 .vd-header h1 {
 	color: #fff;
 	margin: 0;
-	padding: 0.5em;
+	padding: 0.25em 0.5em;
+	font-size: 2em;
 }
 .details-info {
 	padding: 1em;
@@ -902,10 +909,10 @@ a img:hover {
 .details-info .options ul li {
 	display: inline-block;
 	margin: 0;
+	font-size: 0.8em;
 }
 .details-info .options ul li a {
 	color: #2980b9;
-	font-size: 14px;
 	display: inline-block;
 	padding: 0.5em;
 }
@@ -923,12 +930,14 @@ a img:hover {
 }
 .details-info .options ul li a span {
 	margin: 0 0 0 0.5em;
+	font-weight: bold;
 }
 .details-info .cta-img {
 	margin: 0 0 1em 0;
 }
 .details-info .inquire p {
 	line-height: 2.5;
+	margin: 0;
 }
 .details-info .inquire textarea {
 	width: 100%;
@@ -943,17 +952,39 @@ a img:hover {
 	padding: 0 10px;
 	width: 120px;
 	line-height: 2;
+	font-size: 0.75em;
+}
+.details-info .inquire input#fname,
+.details-info .inquire input#lname {
+	width: 100px;
 }
 .details-info .inquire input[type="submit"] {
 	width: 100% !important;
 	padding: 10px;
 	margin: 0;
 }
+.details-info .inquire .head {
+	padding: 0 0 10px 0;
+}
+.details-info .inquire h2 {
+	float: left;
+	margin: 0;
+	font-size: 1.2em;
+}
+.details-info .inquire h4 {
+	float: right;
+	margin: 0;
+	font-size: 1em;
+}
 .details-info #zip {
 	width: 50px;
 }
+.details-info .details-price-features ul li {
+	margin: 0 0 10px 0;
+}
 .details-info h2 {
-	margin-top: 0;
+	font-size: 1em;
+	margin: 0 0 10px 0;
 }
 .details-info h2.with-underline {
 	border-bottom: 1px solid grey;
@@ -968,6 +999,7 @@ a img:hover {
 }
 .details-info .similar-vehicles ul li a {
 	color: #777;
+	font-size: 0.8em;
 }
 .details-info .similar-vehicles ul li a:hover {
 	color: #810a1a;
@@ -985,7 +1017,12 @@ a img:hover {
 	height: 32px;
 	margin: 0 5px;
 }
-
+@media screen and (max-width: 767px) {
+	.details-info .inquire h2,
+	.details-info .inquire h4 {
+		float: none;
+	}
+} /* END max 767px */
 /*
 	VEHICLE EXCHANGE
 	Section includes all styling for Vehicle Exchange page.
@@ -1004,7 +1041,7 @@ a img:hover {
 	padding: 0 0 30px 0;
 }
 .logo-wrappers {
-	padding: 2em;
+	padding: 2em 0 1em 0;
 }
 .svc-pd-logo {
 	display: inline-block;
@@ -1013,24 +1050,52 @@ a img:hover {
 .logo-wrappers-l .svc-pd-logo img {
 	height: 80px;
 }
-
+.content-primary .rightcol h3 {
+	font-size: 1.2em ;
+	margin: 0;
+}
+.content-primary .rightcol h4 {
+	font-size: 1em ;
+	margin: 0;
+}
+.content-primary .box-hoo {
+	padding: 0 0 1em 0;
+}
 @media screen and (min-width: 480px) {} /* END 480px */
 @media screen and (min-width: 768px) {} /* END 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	#header-logo-text {
+		text-align: left;
+		left: 110px;
+		top: 18px;
+	}
+	#header-logo-text h1 {
+		font-size: 2em;
+	}
+} /* END min 768 max 991 */
+@media screen and (max-width: 991px) {
+	.logo-wrappers-l {
+		text-align: center;
+	}
+	.content-primary .rightcol {
+		padding-top: 20px;
+	}
+} /* END max 991px */
 @media screen and (min-width: 992px) {
 		.minheight-ctp {
-			min-height: 445px;
+			min-height: 385px;
 		}
 	} /* END 992px */
 @media screen and (min-width: 1200px) {
 		.minheight-ctp {
-			min-height: 485px;
+			min-height: 355px;
 		}
 	} /* END 1200px */
-@media screen and (min-width: 1366px) {
+/*@media screen and (min-width: 1366px) {
 		.minheight-ctp {
 			min-height: 575px;
 		}
-	} /* END 1366px */
+	}*/ /* END 1366px */
 
 /* email parts department */
 .form-header {
@@ -1045,8 +1110,15 @@ a img:hover {
 	border-bottom: 1px solid #fff;
 	padding: 0 0 0.4em 0;
 	margin: 0 0 0.1em 0;
+	font-weight: normal;
+	font-size: 2em;
 }
-
+.form-header h3 {
+	font-size: 1.5em;
+	line-height: 1.5;
+	font-weight: normal;
+	margin-bottom: 0;
+}
 .epd-form {
 	padding: 0.5em 2.5em 1em;
 }
@@ -1099,7 +1171,26 @@ a img:hover {
 .margin-right-1em {
 	margin-right: 1em !important;
 }
-
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.form-header h1 {
+		font-size: 1.5em;
+	}
+	.form-header h3 {
+		font-size: 1.2em;
+	}
+} /* END min 768 max 991 */
+@media screen and (max-width: 767px) {
+	.form-header {
+		padding: 1.5em;
+		background-size: cover;
+	}
+	.form-header h1 {
+		font-size: 1.2em;
+	}
+	.form-header h3 {
+		font-size: 1em;
+	}
+} /* END max 767px */
 /*
 	WEBFORMS
 	Section includes all form stylings.
@@ -1118,35 +1209,54 @@ a img:hover {
 	color: #777;
 	font-size: 30px;
 	font-weight: bold;
-	padding-bottom: 5px;
-	padding-left: 1em;
-	padding-top: 5px;
+	padding: 5px 1em;
+	margin: 0;
 }
-
 .contactus-form {
 	margin: 1em;
 	border: 1px solid darkgrey;
 }
-
+.contactus-form .form-header h2 {
+	font-size: 1em;
+	font-weight: normal;
+}
+.contactus-form .form-header h3 {
+	color: #fff;
+	font-weight: normal;
+	letter-spacing: normal;
+}
 .cu-form-pad {
 	padding: 0.5em 2.5em 1em;
 }
-
 .box-hoo-cu {
 	border: 1px solid darkgrey;
 	padding: 1em;
 	margin: 1em;
 }
-
 .box-hoo-cu h3 {
 	border-bottom: 1px solid #000;
+	padding: 0 0 5px 0;
+	margin: 0;
 }
-
+.box-hoo-cu h4 {
+	margin: 5px 0;
+	font-size: 1em;
+}
+.box-hoo-cu .row {
+	color: #777;
+}
+.box-hoo-cu .row div:first-child {
+	font-weight: bold;
+}
+.box-hoo-cu-wrap {
+	padding:5px 0 5px 0;
+}
 /*
 	BUY MY USED CAR
 */
 .byuc-list {
 	padding: 2em;
+	font-size: 1.2em;
 }
 .byuc-list .box {
 	position: relative;
@@ -1169,6 +1279,7 @@ a img:hover {
 }
 .byuc-list h2 {
 	margin: 0;
+	font-size: 1em;
 }
 .byuc-list h3 {
 	margin: 0 0 0 2em;
@@ -1178,6 +1289,7 @@ a img:hover {
 	padding: 0;
 	margin: 0;
 	font-size: 2em;
+	font-weight: bold;
 }
 .get-started {
 	padding: 1em 0 0 0;
@@ -1191,6 +1303,7 @@ a img:hover {
 	text-align: center;
 	color: #2980b9;
 	padding: 0.75em;
+	font-weight: bold;
 }
 .get-started a:hover {
 	background: #2980b9;
@@ -1213,11 +1326,19 @@ a img:hover {
 .cv-title {
 	text-align: center;
 	padding: 0.5em 1em;
+	font-size: 2em;
+}
+.cv-title h1 {
+	font-size: 1em;
 }
 .cv-title h1,
 .cv-title h3 {
 	padding: 0;
 	margin: 0;
+	color: #777;
+}
+.cv-title h3 {
+	font-size: 0.72em;
 }
 .vehicle-wrapper {
 	padding: 0 2em 1em;
@@ -1241,6 +1362,11 @@ a img:hover {
 .cv-caption {
 	width: 203px;
 }
+.cv-caption h2 {
+	font-size: 1em;
+	color: #777;
+	margin: 5px 0 0 0;
+}
 #content-primary-newcarstrucks.cv-img img {
 	max-width: 151px;
 	max-height: 80px;
@@ -1255,6 +1381,9 @@ a img:hover {
 #content-primary-vss .container-wrapper {
 	padding: 3em;
 }
+#content-primary-vss .img-holder {
+	padding: 0 0 1em 0;
+}
 #content-primary-vss .img-holder img {
 	max-width: 210px;
 	max-height: 230px;
@@ -1266,6 +1395,15 @@ a img:hover {
 	display: block;
 	margin-top: 1em;
 }
+#content-primary-vss h1 {
+	font-size: 1.2em;
+	font-weight: 900;
+}
+#content-primary-vss h2,
+#content-primary-vss h3 {
+	font-size: 1em;
+	font-weight: normal;
+}
 /*
 	USED CARS TRUCKS
 */
@@ -1276,9 +1414,16 @@ a img:hover {
 	padding: 0.75em;
 	margin: 0;
 	text-align: center;
+	color: #777;
 }
 .uct-list-wrap {
 	text-align: center;
+}
+.uct-list-wrap h2 {
+	font-size: 1.2em;
+	color: #777;
+	margin: 0;
+	padding: 8px 0;
 }
 .uct-list-box {
 	padding: 0 0 1em 0;
@@ -1319,10 +1464,14 @@ a img:hover {
 	padding: 1em 0.5em;
 	font-size: 100%;
 }
+.inv-intro p {
+	font-weight: bold;
+}
 .page-sorting {
 	text-align: right;
 	padding: 0.5em;
 	border-bottom: 0.5em solid #810a1a;
+	font-weight: bold;
 }
 .page-sorting a {
 	color: #4b4a4a;
@@ -1399,6 +1548,9 @@ a img:hover {
 .vehrow .features span {
 	font-weight: 400;
 }
+.vehrow .greatdeals {
+	margin: 0 0 -20px 0;
+}
 @media screen and (min-width: 480px) {} /* END 480px */
 @media screen and (max-width: 767px) {
 	.vehrow .photocolumn,
@@ -1433,7 +1585,11 @@ a img:hover {
 	ALL INVENTORY
 */
 .allinv-header {
-	padding: 1em 2em;
+	padding: 1em 2em 0 2em;
+}
+.allinv-header h1 {
+	font-size: 2em;
+	margin: 0.5em 1em;
 }
 .allinv-block {
 	padding: 1em 2em;
@@ -1441,6 +1597,7 @@ a img:hover {
 .allinv-block h2 {
 	font-size: 1.2em;
 	margin-top: 0;
+	font-weight: normal;
 }
 .allinv-block h2 a,
 .allinv-block h2 span {
@@ -1468,11 +1625,16 @@ a img:hover {
 	font-size: 1.2em;
 	margin: 0;
 	text-decoration: underline;
+	font-weight: normal;
 }
 .sitemap-body .box {
 	display: inline-block;
 	vertical-align: top;
 	padding: 1em 0.5em;
+	font-size: 0.75em;
+}
+.sitemap-body ul li {
+	text-transform: uppercase;
 }
 .sitemap-body ul li a {
 	color: #777;
